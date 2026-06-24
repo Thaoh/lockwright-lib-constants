@@ -86,7 +86,10 @@ export {
 
 export { MAX_FILE_SIZE_MB, MAX_FILE_SIZE_BYTES } from './constants/fileSize'
 
-export { CLIPBOARD_CLEAR_TIMEOUT } from './constants/clipboard'
+export {
+  CLIPBOARD_CLEAR_TIMEOUT_OPTIONS,
+  DEFAULT_CLIPBOARD_CLEAR_TIMEOUT
+} from './constants/clipboard'
 
 export {
   AUTO_LOCK_TIMEOUT_OPTIONS,

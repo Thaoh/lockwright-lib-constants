@@ -6,8 +6,6 @@
 
 Shared constants for Lockwright apps and libraries.
 
-npm name is still `@tetherto/pearpass-lib-constants` until identity lands.
-
 Site: [lockwright.dexterity.works](https://lockwright.dexterity.works)
 
 Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Tether Data or the Pears project. This GitHub repo stays a fork of `tetherto/pearpass-lib-constants` on purpose. Do not open pull requests against Tether.
@@ -93,8 +91,6 @@ npm run lint
 
 ### PearPass Links (`pearpassLinks`)
 
-Export name is still `pearpassLinks`. Values still point at PearPass URLs until identity lands.
-
 | Constant | Description |
 |----------|-------------|
 | `PEARPASS_WEBSITE` | PearPass website URL |
@@ -105,8 +101,6 @@ Export name is still `pearpassLinks`. Values still point at PearPass URLs until 
 | `BLIND_PEERS_LEARN_MORE` | Blind-peer documentation URL |
 
 ### Native Messaging (`nativeMessaging`)
-
-Values are still PearPass ids until identity lands.
 
 | Constant | Description |
 |----------|-------------|

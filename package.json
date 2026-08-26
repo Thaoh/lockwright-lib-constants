@@ -8,7 +8,8 @@
   "scripts": {
     "prepare": "husky || true",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "test": "node --test src/constants/*.test.js"
   },
   "devDependencies": {
     "@tetherto/tether-dev-docs": "github:tetherto/tether-dev-docs",

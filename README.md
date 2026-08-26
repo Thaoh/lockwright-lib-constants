@@ -104,10 +104,10 @@ npm run lint
 
 | Constant | Description |
 |----------|-------------|
-| `MANIFEST_NAME` | Native messaging host manifest name (`com.pears.pass`) |
+| `MANIFEST_NAME` | Native messaging host manifest name (`works.dexterity.lockwright`) |
 | `CHROMIUM_EXTENSION_ID` | Chromium browser extension ID |
-| `FIREFOX_EXTENSION_ID` | Firefox extension ID (`pass@pears.com`) |
-| `FIREFOX_NIGHTLY_EXTENSION_ID` | Firefox Nightly extension ID |
+| `FIREFOX_EXTENSION_ID` | Firefox extension ID (`lockwright@dexterity.works`) |
+| `FIREFOX_NIGHTLY_EXTENSION_ID` | Firefox Nightly extension ID (`lockwright-nightly@dexterity.works`) |
 | `IPC_SOCKET_DIR_NAME` | IPC socket directory name (`.pearpass`) |
 | `NATIVE_MESSAGING_BRIDGE_PEAR_LINK_PRODUCTION` | Production Pear app link |
 | `NATIVE_MESSAGING_BRIDGE_PEAR_LINK_STAGING` | Staging Pear app link |

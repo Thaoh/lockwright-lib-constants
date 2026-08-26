@@ -2,39 +2,29 @@
   <img src="docs/logo.svg" alt="Lockwright" width="128"/>
 </p>
 
-> [!WARNING]
-> 🍐 PearPass is currently paused from active development, so please use at your own caution until further notice.
+# lockwright-lib-constants
 
-# pearpass-lib-constants
+Shared constants for Lockwright apps and libraries.
 
-Shared constants for the Pearpass repositories.
+npm name is still `@tetherto/pearpass-lib-constants` until identity lands.
+
+Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Tether Data or the Pears project.
+
+PearPass upstream paused active development. This fork continues that work.
 
 ## Features
 
-This library provides a centralized collection of constants used across the Pearpass ecosystem.
+One module of constants used across the Lockwright package repos.
 
-## Security Notice
-
-1. To ensure the security and integrity of your projects, please note that official PearPass packages are distributed exclusively through our GitHub organization.
-2. Any packages with similar names found on the npm registry or other third-party package managers are not affiliated with PearPass and should be strictly avoided. We recommend installing directly from this repository to ensure you are using the verified, open-source version.
-
-## Installation
-
-To install the package, you can use npm or yarn:
+## Install
 
 ```bash
-npm install git+https://github.com/tetherto/pearpass-lib-constants.git
+npm install git+https://github.com/Thaoh/lockwright-lib-constants.git
 ```
 
-or
-
-```bash
-yarn add git+https://github.com/tetherto/pearpass-lib-constants.git
-```
+Imports stay `@tetherto/pearpass-lib-constants`. That npm name is not this fork if you install it from the npm registry.
 
 ## Testing
-
-This project uses ESLint for linting. To run the linter, execute the following command:
 
 ```bash
 npm run lint
@@ -101,6 +91,8 @@ npm run lint
 
 ### PearPass Links (`pearpassLinks`)
 
+Export name is still `pearpassLinks`. Values still point at PearPass URLs until identity lands.
+
 | Constant | Description |
 |----------|-------------|
 | `PEARPASS_WEBSITE` | PearPass website URL |
@@ -111,6 +103,8 @@ npm run lint
 | `BLIND_PEERS_LEARN_MORE` | Blind-peer documentation URL |
 
 ### Native Messaging (`nativeMessaging`)
+
+Values are still PearPass ids until identity lands.
 
 | Constant | Description |
 |----------|-------------|
@@ -169,14 +163,14 @@ setTimeout(() => clearClipboard(), CLIPBOARD_CLEAR_TIMEOUT);
 
 ## Dependencies
 
-This library has no production dependencies.
+No production dependencies.
 
 ## Related Projects
 
-- [@tetherto/pearpass-app-mobile](https://github.com/tetherto/pearpass-app-mobile) - A mobile app for PearPass, a password manager
-- [@tetherto/pearpass-app-browser-extension](https://github.com/tetherto/pearpass-app-browser-extension) - A browser extension for PearPass, a password manager
-- [@tetherto/pearpass-app-desktop](https://github.com/tetherto/pearpass-app-desktop) - A desktop app for PearPass, a password manager
+- [lockwright-app-mobile](https://github.com/Thaoh/lockwright-app-mobile)
+- [lockwright-app-browser-extension](https://github.com/Thaoh/lockwright-app-browser-extension)
+- [lockwright-app-desktop](https://github.com/Thaoh/lockwright-app-desktop)
 
 ## License
 
-This project is licensed under the Apache License, Version 2.0. See the [LICENSE](./LICENSE) file for details.
+Apache License 2.0. See `LICENSE.md` and `NOTICE.md`.

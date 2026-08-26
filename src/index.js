@@ -103,3 +103,5 @@ export {
   GITHUB_LATEST_RELEASE_URLS,
   VERSION_CHECK_CONFIG
 } from './constants/versionCheck'
+
+export { formatDisplayVersion, normalizeSha6 } from './constants/displayVersion'

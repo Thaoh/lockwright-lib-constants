@@ -1,0 +1,23 @@
+import assert from 'node:assert/strict'
+import test from 'node:test'
+
+import {
+  APP_STORE_URL,
+  PEARPASS_WEBSITE,
+  PLAY_STORE_URL,
+  PRIVACY_POLICY,
+  TERMS_OF_USE
+} from './pearpassLinks.js'
+
+const SITE = 'https://lockwright.dexterity.works'
+
+test('product links are Lockwright, not PearPass listings', () => {
+  assert.equal(PEARPASS_WEBSITE, SITE)
+  assert.equal(TERMS_OF_USE, `${SITE}/application-terms-of-use/`)
+  assert.equal(PRIVACY_POLICY, `${SITE}/application-privacy/`)
+  assert.equal(APP_STORE_URL, SITE)
+  assert.equal(PLAY_STORE_URL, SITE)
+  assert.doesNotMatch(PEARPASS_WEBSITE, /pears\.com/)
+  assert.doesNotMatch(APP_STORE_URL, /pearpass/i)
+  assert.doesNotMatch(PLAY_STORE_URL, /com\.pears\.pass/)
+})

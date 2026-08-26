@@ -89,11 +89,11 @@ npm run lint
 | `DESKTOP_2FA_IMPORTS_ENABLED` | `false` | 2FA import on desktop toggle |
 | `MOBILE_2FA_IMPORTS_ENABLED` | `false` | 2FA import on mobile toggle |
 
-### PearPass Links (`pearpassLinks`)
+### Product links (`pearpassLinks`)
 
 | Constant | Description |
 |----------|-------------|
-| `PEARPASS_WEBSITE` | PearPass website URL |
+| `PEARPASS_WEBSITE` | Lockwright website URL (`https://lockwright.dexterity.works`) |
 | `PRIVACY_POLICY` | Privacy policy URL |
 | `TERMS_OF_USE` | Terms of use URL |
 | `APP_STORE_URL` | iOS App Store URL |

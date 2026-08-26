@@ -13,3 +13,6 @@ export const CLIPBOARD_CLEAR_TIMEOUT_OPTIONS = {
 
 export const DEFAULT_CLIPBOARD_CLEAR_TIMEOUT =
   CLIPBOARD_CLEAR_TIMEOUT_OPTIONS.MINUTES_1.value
+
+/** Fixed delay used by the extension copy hook. Keep the old name. */
+export const CLIPBOARD_CLEAR_TIMEOUT = 30000

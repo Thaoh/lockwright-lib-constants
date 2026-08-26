@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/logo.svg" alt="Lockwright" width="128"/>
+</p>
+
 > [!WARNING]
 > 🍐 PearPass is currently paused from active development, so please use at your own caution until further notice.
 

@@ -8,7 +8,9 @@ Shared constants for Lockwright apps and libraries.
 
 npm name is still `@tetherto/pearpass-lib-constants` until identity lands.
 
-Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Tether Data or the Pears project.
+Site: [lockwright.dexterity.works](https://lockwright.dexterity.works)
+
+Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Tether Data or the Pears project. This GitHub repo stays a fork of `tetherto/pearpass-lib-constants` on purpose. Do not open pull requests against Tether.
 
 PearPass upstream paused active development. This fork continues that work.
 
@@ -170,6 +172,10 @@ No production dependencies.
 - [lockwright-app-mobile](https://github.com/Thaoh/lockwright-app-mobile)
 - [lockwright-app-browser-extension](https://github.com/Thaoh/lockwright-app-browser-extension)
 - [lockwright-app-desktop](https://github.com/Thaoh/lockwright-app-desktop)
+
+## Contributing
+
+Open issues and pull requests on this repo (`Thaoh/lockwright-lib-constants`). Do not open PRs against `tetherto/pearpass-lib-constants`. See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 ## License
 

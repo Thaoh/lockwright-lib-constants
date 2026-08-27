@@ -47,6 +47,7 @@ export {
   PEARPASS_WEBSITE,
   PRIVACY_POLICY,
   TERMS_OF_USE,
+  FEEDBACK_URL,
   APP_STORE_URL,
   PLAY_STORE_URL
 } from './constants/pearpassLinks'

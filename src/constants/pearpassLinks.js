@@ -3,9 +3,9 @@ export const BLIND_PEERS_LEARN_MORE =
 
 export const PEARPASS_WEBSITE = 'https://lockwright.dexterity.works'
 
-export const TERMS_OF_USE = `${PEARPASS_WEBSITE}/application-terms-of-use/`
+export const TERMS_OF_USE = `${PEARPASS_WEBSITE}/privacy/`
 
-export const PRIVACY_POLICY = `${PEARPASS_WEBSITE}/application-privacy/`
+export const PRIVACY_POLICY = `${PEARPASS_WEBSITE}/privacy/`
 
 export const FEEDBACK_URL = `${PEARPASS_WEBSITE}/contact/`
 

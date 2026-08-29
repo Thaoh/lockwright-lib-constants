@@ -94,8 +94,8 @@ npm run lint
 | Constant | Description |
 |----------|-------------|
 | `PEARPASS_WEBSITE` | Lockwright website URL (`https://lockwright.dexterity.works`) |
-| `PRIVACY_POLICY` | Privacy policy URL |
-| `TERMS_OF_USE` | Terms of use URL |
+| `PRIVACY_POLICY` | Privacy policy URL (`/privacy/`) |
+| `TERMS_OF_USE` | Terms of use URL (same published legal page; the site has no `/terms/`) |
 | `FEEDBACK_URL` | Contact form URL (`/contact/` on the product host) |
 | `APP_STORE_URL` | iOS App Store URL |
 | `PLAY_STORE_URL` | Google Play Store URL |

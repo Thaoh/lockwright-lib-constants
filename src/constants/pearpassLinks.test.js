@@ -14,8 +14,10 @@ const SITE = 'https://lockwright.dexterity.works'
 
 test('product links are Lockwright, not PearPass listings', () => {
   assert.equal(PEARPASS_WEBSITE, SITE)
-  assert.equal(TERMS_OF_USE, `${SITE}/privacy/`)
+  assert.equal(TERMS_OF_USE, `${SITE}/terms/`)
   assert.equal(PRIVACY_POLICY, `${SITE}/privacy/`)
+  assert.doesNotMatch(TERMS_OF_USE, /application-terms/)
+  assert.doesNotMatch(PRIVACY_POLICY, /application-privacy/)
   assert.equal(FEEDBACK_URL, `${SITE}/contact/`)
   assert.equal(APP_STORE_URL, SITE)
   assert.equal(PLAY_STORE_URL, SITE)

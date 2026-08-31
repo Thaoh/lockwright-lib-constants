@@ -6,7 +6,7 @@ export const FIREFOX_NIGHTLY_EXTENSION_ID = 'lockwright-nightly@dexterity.works'
 
 export const MANIFEST_NAME = 'works.dexterity.lockwright'
 
-export const IPC_SOCKET_DIR_NAME = '.pearpass'
+export const IPC_SOCKET_DIR_NAME = '.lockwright'
 
 export const NATIVE_MESSAGING_BRIDGE_PEAR_LINK_PRODUCTION =
   'pear://i49831s3quatekogbc411cdfmg6xmjt1dycxxr3kt1b1qms5x8ro'

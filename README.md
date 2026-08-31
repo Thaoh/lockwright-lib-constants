@@ -109,7 +109,7 @@ npm run lint
 | `CHROMIUM_EXTENSION_ID` | Chromium browser extension ID |
 | `FIREFOX_EXTENSION_ID` | Firefox extension ID (`lockwright@dexterity.works`) |
 | `FIREFOX_NIGHTLY_EXTENSION_ID` | Firefox Nightly extension ID (`lockwright-nightly@dexterity.works`) |
-| `IPC_SOCKET_DIR_NAME` | IPC socket directory name (`.pearpass`) |
+| `IPC_SOCKET_DIR_NAME` | IPC socket directory name (`.lockwright`) |
 | `NATIVE_MESSAGING_BRIDGE_PEAR_LINK_PRODUCTION` | Production Pear app link |
 | `NATIVE_MESSAGING_BRIDGE_PEAR_LINK_STAGING` | Staging Pear app link |
 

@@ -1,4 +1,4 @@
-export const CHROMIUM_EXTENSION_ID = 'pdeffakfmcdnjjafophphgmddmigpejh'
+export const CHROMIUM_EXTENSION_ID = 'mjkngfebbgbofnimnppidjfbifpbimgp'
 
 export const FIREFOX_EXTENSION_ID = 'lockwright@dexterity.works'
 

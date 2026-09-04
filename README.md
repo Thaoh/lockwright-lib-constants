@@ -8,7 +8,7 @@ Shared constants for Lockwright apps and libraries.
 
 Site: [lockwright.dexterity.works](https://lockwright.dexterity.works)
 
-Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Tether Data or the Pears project. This GitHub repo stays a fork of `tetherto/pearpass-lib-constants` on purpose. Do not open pull requests against Tether.
+Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Tether Data or the Pears project.
 
 PearPass upstream paused active development. This fork continues that work.
 
@@ -170,7 +170,7 @@ No production dependencies.
 
 ## Contributing
 
-Open issues and pull requests on this repo (`Thaoh/lockwright-lib-constants`). Do not open PRs against `tetherto/pearpass-lib-constants`. See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+Issues and pull requests are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## License
 
